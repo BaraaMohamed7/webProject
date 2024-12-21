@@ -1,0 +1,39 @@
+#main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	grid-auto-rows: minmax(100px, auto);
+	padding: 20px;
+}
+
+.course-card {
+	display: flex;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	border-radius: 20px;
+}
+.card-link {
+	text-decoration: none;
+	text-align: center;
+}
+.card-image {
+	max-width: 200px;
+}
+.card-image img {
+	max-width: 100%;
+}
+.card-title {
+	font-size: 20px;
+	color: black;
+}
+.card-info {
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 12px;
+	color: #333;
+	margin-top: 20px;
+	background-color: #fff;
+}
